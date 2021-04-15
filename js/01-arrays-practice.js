@@ -168,12 +168,17 @@
 // mixedArray[0] = 'Wild Wild West'
 // console.log(mixedArray)
 //STEP 13
-// let movies = [["Die Hard", 1], ["Mission Impossible", 2], ["John Wick", 3], ["Space Odyssey", 4], ["Gladiator", 5]]
+// let movies = [
+//     ["Die Hard", 1],
+//     ["Mission Impossible", 2], 
+//     ["John Wick", 3], 
+//     ["Space Odyssey", 4], 
+//     ["Gladiator", 5]
+// ]
 
 // let movieStrings = movies.filter((item) => {
-//     return typeof item[0] === 'string'
+//     console.log(item[0])
 // });
-// console.log(movieStrings)
 //STEP 14
 // let employees = []
 // employees[0] = 'Ted'
@@ -203,9 +208,9 @@
 // }
 // console.log(getRandomNum(randArr))
 //STEP 17
-let randArr = [1,22,300,40,5,6,7,88]
-//Compares every number next to each other and keeps the larger of the two until there are no numbers left
-var max = randArr.reduce(function(a, b) {
-    return Math.max(a, b)
-});
-console.log(max)
+// let randArr = [1,22,300,40,5,6,7,88]
+// //Compares every number next to each other and keeps the larger of the two until there are no numbers left
+// var max = randArr.reduce(function(a, b) {
+//     return Math.max(a, b)
+// });
+// console.log(max)
